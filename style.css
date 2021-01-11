@@ -1,0 +1,212 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+#allperson{
+    width: 25%;
+    height: 455px;
+    background-image: url(https://s.itl.cat/pngfile/s/2-28595_whatsapp-background-chat-whatsapp-background.jpg);
+    background-repeat: no-repeat;
+    padding: 1%;
+    border-radius: 1rem;
+    box-shadow: 7px 8px 20px 0px black;
+    margin-left: 36%;
+    border: 0;
+    overflow-y: scroll;
+}
+#allperson::-webkit-scrollbar{
+    display: none;
+}
+#chat-box{
+    cursor: pointer;
+    background-color: #a8aae4d1;
+    box-shadow: 8px 9px 20px 0px #18145d;
+    border: 0;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+    font-family: cursive;
+    text-transform: capitalize;
+    padding: 2%;
+    margin: 5%;
+    width: 50%;
+    height: 44px;
+    margin-left: 20%;
+}
+#chat-box:hover{
+    background-color: red;
+    box-shadow: 5px 5px 20px 0px rgb(250 242 251 / 82%);
+}
+#main{
+    /* background-color: blueviolet; */
+    background-image: url(https://dzbc.org/wp-content/uploads/data/2018/2/19/Background.max-x-PIC-MCH043354.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 617px;
+    /* display: flex; */
+    /* position: absolute; */
+    /* margin-bottom: 0; */
+}
+#mainn{
+    /* background-color: blueviolet; */
+    background-image: url(https://www.wallpapertip.com/wmimgs/66-666819_website-design-background-creative-background-image-for-website.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 587px;
+    /* display: flex; */
+    /* position: absolute; */
+    /* margin-bottom: 0; */
+}
+.chat{
+    width: 67%;
+    margin-left: 32%;
+    margin-top: 0.8%;
+    height: 566px;
+    background-color: brown;
+}
+#chat_div{
+    width: 100%;
+    height: 480px;
+    position: relative;
+    /* margin-top: 0%; */
+    /* display: flex; */
+}
+#inputText{
+    width: 45%;
+    height: 55px;
+    border-radius: 2rem;
+    border: 0;
+    margin-left: 23%;
+    /* text-transform: capitalize; */
+    box-shadow: 8px 11px 20px #1c1a1d;
+}
+#inputText:focus{
+    outline: none;
+}
+#butt{
+    /* display: flex; */
+    /* margin-top: 49%; */
+    position: relative;
+    top: 103%;
+    height: 5%;
+    left: 3%;
+}
+#para{
+    padding: 3%;
+    margin-top: 3%;
+    margin-right: 10%;
+    height: 22px;
+    background-color: violet;
+    border-radius: 1rem;
+    opacity: 0.7;
+    box-shadow: 5px 10px 18px #521c1c;
+    font-size: large;
+    font-family: emoji;
+    color: white;
+}
+#chatting-box{
+    /* background: #44705C; */
+    background-image: url(https://www.techgrapple.com/wp-content/uploads/2016/07/WhatsApp-Chat-theme-iPhone-9.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 9px 12px 20px 0px #2f494c;
+    width: 50%;
+    height: 470px;
+    padding: 0%;
+    margin: 1%;
+    margin-left: 23%;
+    margin-top: 0%;
+    overflow-y: scroll;
+}
+#chatting-arena{
+    list-style-type: none;
+}
+#chatting-box::-webkit-scrollbar{
+    display: none;
+}
+#sendBut{
+    background-size: cover;
+    position: relative;
+    left: -20px;
+    top: 15px;
+    width: 50px;
+    margin-left: 2%;
+    border: none;
+    background-color: #010a0a;
+    height: 50px;
+    box-shadow: 16px 20px 20px 0px #5d696570;
+    border-radius: 2rem;
+    border-color: #46828261;
+    background-image: url(https://p7.hiclipart.com/preview/344/924/834/computer-icons-web-development-button-download-send-email-button-thumbnail.jpg);
+}
+#sendBut:focus{
+    outline:none;
+}
+#chatArea{
+    background-color: #6845a0;
+    height: 50px;
+}
+#chatbody{
+    margin: 0%;
+}
+#chatarea{
+    margin: 0%;
+    text-align: center;
+    color: aliceblue;
+    box-shadow: 7px 10px 20px 6px #b3b1da;
+}
+#signupp{
+    width: 50%;
+    margin-left: 25%;
+    background-color: #14273ebf;
+    border: 0;
+    color: azure;
+    font-size: larger;
+    font-family: sans-serif;
+    margin-top: 10%;
+    border-radius: 3rem;
+    box-shadow: 5px 10px 18px #080808;
+}
+#sign{
+    text-align: center;
+    color: aliceblue;
+}
+.btn{
+    margin-left: 43%;
+    margin-bottom: 2%;
+}
+#loginbody{
+    background-image: url(https://www.dias-security.ru/data/media/images/services/2.servers.jpg);
+}
+#link{
+    margin-left: 30%;
+}
+#startingpage{
+    background-image: url(https://wallpapersplanet.net/sites/default/files/programming-wallpapers-40475-5598839.png);
+    background-repeat: no-repeat;
+}
+#start{
+    width: 47%;
+    margin-top: 9%;
+}
+#startbtn{
+    height: 50px;
+    margin-left: 30%;
+    border: 0;
+    background-color: #afb0c7e6;
+    width: 20%;
+    border-radius: 2rem;
+    font-size: larger;
+    font-family: monospace;
+    box-shadow: 5px 10px 20px 5px #251b1b;
+}
+#startbtn:hover{
+    background-color: #7ae0d7;
+}
+#startbtn:focus{
+    outline: none;
+}
